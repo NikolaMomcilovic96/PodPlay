@@ -13,10 +13,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PodPlay"
-        tools:targetApi="n"
-        android:fullBackupContent="">
+        tools:targetApi="n">
         <activity
             android:name=".ui.PodcastActivity"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.PodPlay.NoActionBar"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
